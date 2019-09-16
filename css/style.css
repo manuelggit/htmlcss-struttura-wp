@@ -30,8 +30,31 @@ main {
   background: orange;
 }
 
+main:after {
+content: "";
+display: table;
+clear: both;
+}
+
 .sinistra {
+  display: inline-block;
   float: left;
   width: 20%;
   background: red;
+}
+
+.centro {
+  display: inline-block;
+  width: 45%;
+  background: blue;
+}
+
+.destra {
+  float: right;
+  width: 20%;
+  background: pink;
+}
+
+footer {
+  background: brown;
 }
