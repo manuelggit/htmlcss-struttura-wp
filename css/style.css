@@ -1,3 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url("../img/sfondo.jpg");
+}
+
+.container {
+  margin: 5% 20%;
+  text-align: center;
+  background: white;
+}
+
+header {
+  background: yellow;
+}
+
+h1 {
+
+}
+
+h3 {
+
+}
+
+main {
+  background: orange;
+}
+
+.sinistra {
+  float: left;
+  width: 20%;
+  background: red;
 }
